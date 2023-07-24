@@ -1,0 +1,29 @@
+.comp1 {
+    h3 {
+        text-align: center;
+        color: rgb(108, 2, 2);
+        font-size: 2em;
+    }
+    p {
+        text-align: center;
+        color: red;
+        font-size: 1em;
+    }
+}
+
+.comp2 {
+    h3 {
+        text-align: center;
+        color: yellow;
+        font-size: 2em;
+    }
+    p {
+        text-align: center;
+        color: red;
+        font-size: 1em;
+    }
+
+    :last-child {
+        color: aqua;
+    }
+}
